@@ -18,18 +18,33 @@ For this demo we will generate three files: `XML`, `JSON`, `HTML` and `Markdown`
 
 ```text
 tree -I node_modules -X -o tree.xml
+
+------- command breakdowm -------
+-I pattern    Do not list files that match the given pattern.
+-X            Prints out an XML representation of the tree.
+-o filename   Output to file instead of stdout.
 ```
 
 ##### JSON
 
 ```text
 tree -I node_modules -J -o tree.json
+
+------- command breakdowm -------
+-I pattern    Do not list files that match the given pattern.
+-J            Prints out an JSON representation of the tree.
+-o filename   Output to file instead of stdout.
 ```
 
 ##### HTML
 
 ```text
 tree -I node_modules -H baseHREF -o tree.html
+
+------- command breakdowm -------
+-I pattern    Do not list files that match the given pattern.
+-H baseHREF   Prints out HTML format with baseHREF as top directory.
+-o filename   Output to file instead of stdout.
 ```
 
 #### Markdown
