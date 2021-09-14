@@ -57,6 +57,10 @@ tree -I node_modules -o tree.md
 
 The `tree --help` command generates this menu:
 
+<details>
+<summary>Click to expand</summary>
+<p>
+
 ```text
 tree --help
 usage: tree [-acdfghilnpqrstuvxACDFJQNSUX] [-H baseHREF] [-T title ]
@@ -124,6 +128,9 @@ usage: tree [-acdfghilnpqrstuvxACDFJQNSUX] [-H baseHREF] [-T title ]
   --            Options processing terminator.
 
 ```
+
+</p>
+</details>
 
 ## Advanced Tree
 
