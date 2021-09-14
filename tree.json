@@ -1,0 +1,25 @@
+[{"type":"directory","name": ".","contents":[
+    {"type":"file","name":"README.md"},
+    {"type":"file","name":"babel.config.js"},
+    {"type":"file","name":"package-lock.json"},
+    {"type":"file","name":"package.json"},
+    {"type":"directory","name":"public","contents":[
+      {"type":"file","name":"favicon.ico"},
+      {"type":"file","name":"index.html"}
+    ]},
+    {"type":"directory","name":"src","contents":[
+      {"type":"file","name":"App.vue"},
+      {"type":"directory","name":"assets","contents":[
+        {"type":"file","name":"logo.png"}
+      ]},
+      {"type":"directory","name":"components","contents":[
+        {"type":"file","name":"HelloWorld.vue"}
+      ]},
+      {"type":"file","name":"main.js"}
+    ]},
+    {"type":"file","name":"tree.json"},
+    {"type":"file","name":"tree.md"},
+    {"type":"file","name":"tree.xml"}
+  ]},
+  {"type":"report","directories":4,"files":13}
+]
