@@ -6,11 +6,11 @@ For this test we are using a [Vue.js](https://vuejs.org/) project generated with
 
 Test project to show how to generate trees for your projects
 
-### How to install Tree
+## How to install Tree
 
-Install [tree with brew](https://formulae.brew.sh/formula/tree). You can view the help directory by running the `tree --help` command in your terminal to get these options
+Install [tree with brew](https://formulae.brew.sh/formula/tree). You can view the help directory by running the `tree --help` command in your terminal to get [these](#tree-command-guide) options
 
-#### Generating trees
+## Generating trees
 
 For this demo we will generate three files: `XML`, `JSON`, `HTML` and `Markdown`. For this test, we will exclude the `node_modules` folder.
 
@@ -38,7 +38,7 @@ tree -I node_modules -H baseHREF -o tree.html
 tree -I node_modules -o tree.md
 ```
 
-#### Tree command guide
+## Tree command guide
 
 The `tree --help` command generates this menu:
 
@@ -107,5 +107,18 @@ usage: tree [-acdfghilnpqrstuvxACDFJQNSUX] [-H baseHREF] [-T title ]
   --version     Print version and exit.
   --help        Print usage and this help message and exit.
   --            Options processing terminator.
+
+```
+
+## Advanced Tree
+
+According to [this answer](https://askubuntu.com/a/729407) on [ask ubuntu](https://askubuntu.com/)
+
+> You can also view the manual for most applications by using the `man` command
+
+For the tree command we can view the manual by running the following command:
+
+```bash
+man tree
 
 ```
