@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree>
+  <directory name=".">
+    <file name="README.md"></file>
+    <file name="babel.config.js"></file>
+    <file name="package-lock.json"></file>
+    <file name="package.json"></file>
+    <directory name="public">
+      <file name="favicon.ico"></file>
+      <file name="index.html"></file>
+    </directory>
+    <directory name="src">
+      <file name="App.vue"></file>
+      <directory name="assets">
+        <file name="logo.png"></file>
+      </directory>
+      <directory name="components">
+        <file name="HelloWorld.vue"></file>
+      </directory>
+      <file name="main.js"></file>
+    </directory>
+    <file name="tree.md"></file>
+    <file name="tree.xml"></file>
+  </directory>
+  <report>
+    <directories>4</directories>
+    <files>12</files>
+  </report>
+</tree>
